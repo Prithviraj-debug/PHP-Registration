@@ -1,0 +1,34 @@
+* {
+    transition: .2s all;
+}
+
+.error {
+    color: red;
+}
+
+@media (max-width: 1170px) {
+    body {
+        background-image: none;
+        background-color: #a77560;
+    }
+}
+
+@media (max-width: 555px) {
+    .signinCon {
+        width: 90vw;
+    }
+
+    .signinCon h1 {
+        font-size: 30px;
+    }
+    
+    .signinCon .regForm input {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .regForm button {
+        width: 35px;
+        height: 35px;
+    }
+}
